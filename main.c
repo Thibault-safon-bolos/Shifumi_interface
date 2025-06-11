@@ -129,6 +129,9 @@ int main(int argc, char *argv[]){
     gtk_button_set_image(GTK_BUTTON(buttonC), imageC);
     gtk_box_pack_start(GTK_BOX(box), buttonC, FALSE, FALSE, 10);
 
+    gtk_widget_set_name(buttonP, "buttonP");
+    gtk_widget_set_name(buttonF, "buttonF");
+    gtk_widget_set_name(buttonC, "buttonC");
     
     g_signal_connect(G_OBJECT(buttonP), "clicked", G_CALLBACK(Bot), GINT_TO_POINTER(PIERRE));
     g_signal_connect(G_OBJECT(buttonC), "clicked", G_CALLBACK(Bot), GINT_TO_POINTER(CISEAUX));

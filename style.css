@@ -1,4 +1,23 @@
 *{
-    background-color: rgb(56, 1, 73);
+    background-color: rgb(85, 0, 110);
     color: rgb(255, 255, 255);
+}
+ 
+#buttonC {
+    background-color: #4E1670;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
+#buttonP, #buttonF{
+
+    background-color: #400472;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
 }
